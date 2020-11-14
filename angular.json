@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "desafio"
+    }
+  },
+  "defaultProject": "desafio",
+  "cli": {
+    "analytics": "b4ae26a3-02ca-497a-a64a-0ccf0a324f85"
+  }
 }
