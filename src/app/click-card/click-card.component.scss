@@ -1,0 +1,8 @@
+.click-card {
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    margin-top: 32px;
+  }
+}

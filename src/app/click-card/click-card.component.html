@@ -1,0 +1,13 @@
+<mat-card class="click-card">
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="toggleText()">
+      Clique aqui para
+      {{ isText ? "sumir" : "aparecer" }}
+      o texto
+    </button>
+  <mat-card-content *ngIf="isText" class="click-card__content">
+    Oi, você clicou para aparecer o texto
+  </mat-card-content>
+</mat-card>
