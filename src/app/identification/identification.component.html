@@ -1,0 +1,25 @@
+<div class="identification__container">
+  <mat-card class="identification__card">
+    <mat-card-title>Identificação</mat-card-title>
+    <section class="identification__form">
+      <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input
+          matInput
+          name="name"
+          [(ngModel)]="name"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Idade</mat-label>
+        <input
+          matInput
+          name="age"
+          type="number"
+          [(ngModel)]="age"
+        />
+      </mat-form-field>
+      <h2 class="identification__result">Olá, meu nome é {{ name }} e tenho {{ age }} anos.</h2>
+    </section>
+  </mat-card>
+</div>

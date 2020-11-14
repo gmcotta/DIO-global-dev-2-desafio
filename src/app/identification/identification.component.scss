@@ -1,0 +1,20 @@
+.identification {
+  &__container {
+    padding: 32px;
+  }
+
+  &__card {
+    max-width: 600px;
+    margin: auto;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  &__result {
+    margin: 16px 0 0 0;
+  }
+}
