@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ListCardComponent } from './list-card.component';
-import { BootcampListComponent } from './bootcamp-list/bootcamp-list.component';
+import { BootcampComponent } from './bootcamp.component';
+import { BootcampTableComponent } from './bootcamp-table/bootcamp-table.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
   declarations: [
-    ListCardComponent,
-    BootcampListComponent,
+    BootcampComponent,
+    BootcampTableComponent,
   ],
   imports: [
     CommonModule,
@@ -17,7 +17,7 @@ import { MatTableModule } from '@angular/material/table';
     MatTableModule,
   ],
   exports: [
-    ListCardComponent,
+    BootcampComponent,
   ],
 })
-export class ListCardModule { }
+export class BootcampModule { }

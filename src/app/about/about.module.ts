@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ClickCardComponent } from './click-card.component';
+import { AboutComponent } from './about.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
-    ClickCardComponent
+    AboutComponent
   ],
   imports: [
     CommonModule,
@@ -14,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatButtonModule,
   ],
   exports: [
-    ClickCardComponent,
+    AboutComponent,
   ]
 })
-export class ClickCardModule { }
+export class AboutModule { }

@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'gmc-name',
+  selector: 'gmc-identification',
   templateUrl: './identification.component.html',
   styleUrls: ['./identification.component.scss']
 })
-export class IdentificationComponent implements OnInit {
+export class IdentificationComponent {
   name = 'Gustavo';
   age = 26;
 
   constructor() {
-  }
-
-  ngOnInit(): void {
   }
 }

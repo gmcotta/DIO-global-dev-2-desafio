@@ -1,13 +1,16 @@
-<mat-card class="click-card">
+<mat-card class="about">
   <mat-card-title>Apresentação</mat-card-title>
   <button
     mat-raised-button
-    class="click-card__button"
+    class="about__button"
     color="primary"
     (click)="toggleText()">
-      {{ isText ? "Desaparecer" : "Aparecer" }} texto
+      {{ isButtonActivated ? "Desaparecer" : "Aparecer" }} texto
     </button>
-  <mat-card-content *ngIf="isText" class="click-card__content">
+  <mat-card-content
+    *ngIf="isButtonActivated"
+    class="about__content"
+  >
     Atuei desde 2018 como analista de testes,
     no momento estou em transição de carreira para a área de
     desenvolvimento web, com foco no front-end.

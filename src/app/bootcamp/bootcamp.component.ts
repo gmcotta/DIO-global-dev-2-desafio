@@ -3,11 +3,11 @@ import { Bootcamp } from '../shared/models/bootcamp.model';
 import { BootcampListService } from '../shared/services/bootcamp-list.service';
 
 @Component({
-  selector: 'gmc-list-card',
-  templateUrl: './list-card.component.html',
-  styleUrls: ['./list-card.component.scss']
+  selector: 'gmc-bootcamp',
+  templateUrl: './bootcamp.component.html',
+  styleUrls: ['./bootcamp.component.scss']
 })
-export class ListCardComponent implements OnInit {
+export class BootcampComponent implements OnInit {
 
   list: Bootcamp[] = [];
 

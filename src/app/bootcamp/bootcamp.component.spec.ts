@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BootcampListComponent } from './bootcamp-list.component';
+import { BootcampComponent } from './bootcamp.component';
 
-describe('BootcampListComponent', () => {
-  let component: BootcampListComponent;
-  let fixture: ComponentFixture<BootcampListComponent>;
+describe('BootcampComponent', () => {
+  let component: BootcampComponent;
+  let fixture: ComponentFixture<BootcampComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BootcampListComponent ]
+      declarations: [ BootcampComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BootcampListComponent);
+    fixture = TestBed.createComponent(BootcampComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

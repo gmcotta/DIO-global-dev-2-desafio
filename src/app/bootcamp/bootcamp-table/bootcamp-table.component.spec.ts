@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListCardComponent } from './list-card.component';
+import { BootcampTableComponent } from './bootcamp-table.component';
 
-describe('ListCardComponent', () => {
-  let component: ListCardComponent;
-  let fixture: ComponentFixture<ListCardComponent>;
+describe('BootcampTableComponent', () => {
+  let component: BootcampTableComponent;
+  let fixture: ComponentFixture<BootcampTableComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListCardComponent ]
+      declarations: [ BootcampTableComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListCardComponent);
+    fixture = TestBed.createComponent(BootcampTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
