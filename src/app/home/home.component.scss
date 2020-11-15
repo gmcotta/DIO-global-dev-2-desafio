@@ -2,11 +2,20 @@
   &__container {
     max-width: 800px;
     margin: 0 auto;
+
+    @media screen and (max-width: 800px) {
+      padding: 0 32px;
+    }
   }
 
   &__second-row {
     display: grid;
     grid-template-columns: 40% calc(60% - 32px);
     gap: 32px;
+
+    @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

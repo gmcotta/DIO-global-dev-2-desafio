@@ -1,13 +1,15 @@
 <mat-card class="click-card">
+  <mat-card-title>Apresentação</mat-card-title>
   <button
     mat-raised-button
+    class="click-card__button"
     color="primary"
     (click)="toggleText()">
-      Clique aqui para
-      {{ isText ? "sumir" : "aparecer" }}
-      o texto
+      {{ isText ? "Desaparecer" : "Aparecer" }} texto
     </button>
   <mat-card-content *ngIf="isText" class="click-card__content">
-    Oi, você clicou para aparecer o texto
+    Atuei desde 2018 como analista de testes,
+    no momento estou em transição de carreira para a área de
+    desenvolvimento web, com foco no front-end.
   </mat-card-content>
 </mat-card>
