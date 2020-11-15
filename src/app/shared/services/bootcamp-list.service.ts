@@ -4,7 +4,7 @@ import { Bootcamp } from '../models/bootcamp.model';
 @Injectable({
   providedIn: 'root'
 })
-export class ListService {
+export class BootcampListService {
 
   private list: Bootcamp[] = [
     {

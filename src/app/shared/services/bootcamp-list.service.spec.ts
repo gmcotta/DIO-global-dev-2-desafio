@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ListService } from './bootcamp-list.service';
+import { BootcampListService } from './bootcamp-list.service';
 
-describe('ListService', () => {
-  let service: ListService;
+describe('BootcampListService', () => {
+  let service: BootcampListService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ListService);
+    service = TestBed.inject(BootcampListService);
   });
 
   it('should be created', () => {
