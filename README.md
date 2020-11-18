@@ -1,27 +1,28 @@
-# Desafio
+# Desafio Aceleração Global Dev #2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## Objetivo
+Esse repositório tem como objetivo mostrar o desafio proposto pelo programa Aceleração Global Dev #2, da Avanade, em parceria com a Digital Innovation One. Os requisitos do projeto são:
 
-## Development server
+- Crie uma aplicação Angular (Não esqueça que todo código precisa estar no GitHub)
+- Crie no mínimo 3 componentes que deverão estar interagindo na mesma página (Não esqueça das rotas)
+- Escolha no mínimo 4 componentes do Angular Material e incorpore eles em sua aplicação.
+- Crie em uma das páginas uma interação através da Interpolação e/ou utilizando Property Biding.
+- Crie uma explicação sobre o que foi feito, esta explicação será inserida na plataforma junto com o link para o código no GitHub.
+- Você poderá criar um vídeo demonstrativo da aplicação construída, e publicá-lo no YouTube, passando o link de acesso na plataforma. Este passo 6, não é obrigatório, mas entrará como um diferencial. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Demonstração
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Clique aqui](https://youtu.be/d9w0v5RNxa4) para assistir à demonstração do desafio.
 
-## Build
+## Imagens
+<img src="./.github/images/img_1.png" />
+<img src="./.github/images/img_2.png" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Como executar o projeto
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Fazer o clone desse repositório;
+- Na pasta do repositório, executar, no terminal, o comando
+``` npm install ```;
+- Executar o comando ``` ng serve ```;
+- Abrir o browser de sua preferência e navegar para ```http://localhost:4200/```.
